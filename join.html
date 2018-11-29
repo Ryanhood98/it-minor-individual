@@ -1,0 +1,91 @@
+<!doctype html>
+<html class="no-js" lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>Ryan Hood Library</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+         <meta name="robots" content="noindex">
+        <link rel="manifest" href="site.webmanifest">
+        <link rel="apple-touch-icon" href="icon.png">
+        <!-- Place favicon.ico in the root directory -->
+
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/main.css">
+             <script defer src= "https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.17.0/jquery.validate.min.js"></script>
+
+         <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js" integrity="sha384-SlE991lGASHoBfWbelyBPLsUlwY1GwNDJo3jSJO04KZ33K2bwfV9YBauFfnzvynJ" crossorigin="anonymous"></script>
+       
+    </head>
+
+        <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+        <!-- Add your site or application content here -->
+
+<header class="primary">
+
+    </header>
+
+<nav class="nav">
+    <ul id="main-nav">
+      <li><a href="index.html" title="Home Page">Home</a></li>
+      <li><a href="join.html" title="Join Us">Join Us</a></li>
+      <li><a href="#" title="Programs">Programs</a></li>
+      <li><a href="#" title="FAQ">FAQ</a></li>
+    </ul>
+    </nav>
+
+
+<body>
+  <main class="container">
+      
+<form action="https://ryan-hood-individual-project-ryanhood.c9users.io/api.php/People" method="POST" name="registration" class="registration">
+    <label for="person_name">Name</label>
+    <input type="varchar" name="Name" id="person_name" placeholder="John Smith">
+
+    <label for="person_address">Address</label>
+    <input type="varchar" name="Address" id="person_address" placeholder="123 Street Rd.">
+    
+    <label for="person_phone">Phone Number</label>
+    <input type="varchar" name="Phone" id="person_phone" placeholder="501-123-4567">
+
+    <label for="person_email">Email</label>
+    <input type="varchar" name="Email" id="person_email" placeholder="john@doe.com">
+
+    <label for="person_cc">Credit Card Number</label>
+    <input type="int" name="CC_num" id="person_cc" placeholder="123-45-6789">
+
+    <button type="submit">Send</button>
+  </form>
+
+
+
+
+
+    <footer>
+ <h6>&copy;2018  ‖ Ryan Hood  ‖ <a href="mailto:srhood@ualr.edu">Email</a></h6>
+    </footer><!--footer.primary-->
+
+  </main>
+  <!--.container-->
+
+
+        <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.2.1.min.js"><\/script>')</script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.cycle/3.03/jquery.cycle.all.min.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/gallery.js"></script>
+
+        <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+        <script>
+            window.ga=function(){ga.q.push(arguments)};ga.q=[];ga.l=+new Date;
+            ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
+        </script>
+        <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+    </body>
+</html>
