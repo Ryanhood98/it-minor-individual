@@ -218,18 +218,18 @@ body{
 }
 
 
-.gallery{
-    overflow:hidden;
-    margin-right:10px;
+.image{
     margin-bottom:30px;
     height:auto;
     
 }
-.gallery img {
-  width:100.7%;
+.image img {
+  width:100%;
   margin-top:15px;
 
 }
+
+
 
 
 .featured img{
